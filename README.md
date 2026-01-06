@@ -13,7 +13,7 @@ Kanban Board
 5. Deployment (3 Days)
 6. Automation (3 Days)
 7. Reporting & Visualisation (7 Days)
-8. Technical Docs (2 Dasy)
+8. Technical Docs (2 Days)
 
 
 User stories
@@ -23,4 +23,7 @@ User stories
 3. As a librarian I want to know how many books are to be returrned for plannning purposes
 4. As a librarian I want to see up-to-date status of books for late fees/borrowed time/reserved etc.
 5. As a data engineer I want a power bi dashboard to see pipeline metrics/trends
+
+
+<img width="1084" height="593" alt="image" src="https://github.com/user-attachments/assets/458eb9c2-d84f-4f43-818b-ae6d28b4d1b2" />
    
