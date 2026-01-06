@@ -1,29 +1,36 @@
-# M5-2026-01-06
-Module 5
+# Library Data Automation Project
 
-Kanban Board
-1. Planning & Exploration (10 Days)
-2. Data storage & cleansing (5 Days)
-      - Do initial data Quality Checks
-      - Create & Define Tables
-      - Data Validation
-      - Data Quality Report
-           
-4. Test & Development (5 Days)
-5. Deployment (3 Days)
-6. Automation (3 Days)
-7. Reporting & Visualisation (7 Days)
-8. Technical Docs (2 Days)
+## 1. Project Introduction
 
+### Background
+The library currently performs data quality checks and reporting manually. This process is time-consuming, prone to human error, and difficult to scale as data volumes increase. There is also limited automation, which prevents stakeholders, librarians, and users from accessing up-to-date information.
 
-User stories
+### Project Aim
+The aim of this project is to design and implement an **automated data processing pipeline** using Python, GitHub, and Azure DevOps. The solution will clean, validate, and transform library data, producing a presentation-ready dataset for reporting in Power BI.
 
-1. As a project sponsor I want to reduece manual work & automate our processes
-2. As a library user I want up-to-date status of my account & books
-3. As a librarian I want to know how many books are to be returrned for plannning purposes
-4. As a librarian I want to see up-to-date status of books for late fees/borrowed time/reserved etc.
-5. As a data engineer I want a power bi dashboard to see pipeline metrics/trends
+### Objectives
+- Reduce manual effort through automation  
+- Improve data quality, consistency, and reliability  
+- Enable repeatable and auditable data transformations  
+- Provide timely insights for operational and strategic decision-making  
 
+---
 
-<img width="1084" height="593" alt="image" src="https://github.com/user-attachments/assets/458eb9c2-d84f-4f43-818b-ae6d28b4d1b2" />
-   
+## 2. Project Timeline & Phases
+
+| Phase | Description | Duration |
+|-----|------------|----------|
+| Planning & Exploration | Requirements gathering, data exploration, architecture design | 10 days |
+| Data Storage & Cleaning | Data quality checks, table definition, validation, reporting | 10 days |
+| Test & Development | Python development and unit testing | 5 days |
+| Deployment | CI/CD pipeline setup | 3 days |
+| Automation | Automated pipeline execution | 3 days |
+| Reporting & Visualisation | Power BI dashboards and insights | 7 days |
+| Technical Documentation | Final documentation and handover | 2 days |
+
+---
+
+## 3. Architecture Overview
+
+<img width="741" height="137" alt="image" src="https://github.com/user-attachments/assets/8758a4cc-80ba-40eb-a6de-77f8397015ce" />
+
