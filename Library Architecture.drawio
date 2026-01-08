@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.10">
+  <diagram name="Page-1" id="tQp3LGyG7Kpfyf7isB-B">
+    <mxGraphModel dx="1123" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="User Site (Wordpress)" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Use existing Library card, ID, &amp;amp; Name" vertex="1">
+          <mxGeometry height="60" width="120" x="740" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="simple email authentication" vertex="1">
+          <mxGeometry height="60" width="120" x="740" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-18" edge="1" parent="1" source="wxr_3VD0XZ8GJ-v3i799-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="wxr_3VD0XZ8GJ-v3i799-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="User Entity" vertex="1">
+          <mxGeometry height="60" width="120" x="920" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-14" edge="1" parent="1" source="wxr_3VD0XZ8GJ-v3i799-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wxr_3VD0XZ8GJ-v3i799-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Flask APP" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-21" edge="1" parent="1" source="wxr_3VD0XZ8GJ-v3i799-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wxr_3VD0XZ8GJ-v3i799-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Containerised Load Application" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-13" edge="1" parent="1" source="wxr_3VD0XZ8GJ-v3i799-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="wxr_3VD0XZ8GJ-v3i799-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SQL&amp;nbsp; DataSorage" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-16" edge="1" parent="1" source="wxr_3VD0XZ8GJ-v3i799-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wxr_3VD0XZ8GJ-v3i799-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CSV Data" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Stored as PasswordHash" vertex="1">
+          <mxGeometry height="60" width="120" x="740" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-11" edge="1" parent="1" source="wxr_3VD0XZ8GJ-v3i799-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wxr_3VD0XZ8GJ-v3i799-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-22" edge="1" parent="1" source="wxr_3VD0XZ8GJ-v3i799-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wxr_3VD0XZ8GJ-v3i799-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CI/CD" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-19" edge="1" parent="1" source="wxr_3VD0XZ8GJ-v3i799-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wxr_3VD0XZ8GJ-v3i799-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wxr_3VD0XZ8GJ-v3i799-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Source Code" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
