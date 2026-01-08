@@ -34,3 +34,9 @@ The aim of this project is to design and implement an **automated data processin
 
 <img width="741" height="137" alt="image" src="https://github.com/user-attachments/assets/8758a4cc-80ba-40eb-a6de-77f8397015ce" />
 
+
+## 4. Dev Notes
+Cleaning logic created and stored in the Repo. 
+Begun creation of Unit Tests to confim function performance
+
+
