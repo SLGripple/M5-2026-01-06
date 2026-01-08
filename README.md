@@ -41,7 +41,7 @@ Begun creation of Unit Tests to confim function performance
 
 ## 5. Docker
 app_refactored.py modified to write to a pair of CSV's at time of run
-To run appropriately, mount the voulme where the unlceaned csv's reside, this will also be the volume where cleased csv's are written to
+To run appropriately, mount the volume where the uncleaned csv's reside, this will also be the volume where cleased csv's are written to
 
 syntax is : docker run -it -v "C:\Users\Admin\Desktop\M5-2026-01-06\data:/app/data" dataclean
 
