@@ -3,6 +3,9 @@
 import pandas as pd
 import os
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__)) 
+DATA_DIR = os.path.join(BASE_DIR, "..", "data")
+
 # Function to output dataframe that can be manipulated via a filepath
 def fileLoader(filepath):
     if not os.path.exists(filepath):
@@ -20,7 +23,7 @@ def naCleaner(df):
 # Turning date columns into datetime
 def dateCleaner(col, df):
     # Strip any quotes from dates
-    df[col] = df[col].str.replace('"', "", regex=True)
+    df[col] = df[col].astype(str).str.replace('"', "", regex=True)
 
     try:
         df[col] = pd.to_datetime(df[col], dayfirst=True, errors='coerce')
@@ -75,12 +78,9 @@ if __name__ == '__main__':
 
     date_errors = pd.concat(all_errors, ignore_index=True)
 
-    # Converting date columns into datetime
-    for col in date_columns:
-        data = dateCleaner(col, data)
-    
+      
     # Enriching the dataset
-    data = enrich_dateDuration(df=data, colA='Book Returned', colB='Book checkout')
+    data = enrich_dateDuration(df=data, colA='Book checkout', colB='Book Returned')
 
     #data.to_csv('cleaned_file.csv')
     print(data)
@@ -101,14 +101,14 @@ if __name__ == '__main__':
 
     # Assume 'data' is your cleaned pandas DataFrame
     print(f"Writing to Cleaned CSV")
-    output_path = "/app/data/03_Library Systembook_cleaned.csv"
-    output_path2 = "/app/data/03_Library SystemCustomers_cleaned.csv"
-    output_path3 = "/app/data/03_Library Errors.csv"
-    data.to_csv(output_path, index=False)
+    output_path1 = os.path.join(DATA_DIR, "03_Library Systembook_cleaned.csv") 
+    output_path2 = os.path.join(DATA_DIR, "03_Library SystemCustomers_cleaned.csv") 
+    output_path3 = os.path.join(DATA_DIR, "03_Library Errors.csv")
+    data.to_csv(output_path1, index=False)
     data2.to_csv(output_path2, index=False)
     data3.to_csv(output_path3, index=False)
 
-    print(f"Cleaned CSV written to {output_path}")
+    print(f"Cleaned CSV written to {output_path1}")
     print(f"Cleaned CSV written to {output_path2}")
     print(f"Error CSV written to {output_path3}")
     
